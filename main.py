@@ -7,7 +7,7 @@ import time
 
 
 try:
-    url = 'https://drive.google.com/drive/folders/1vc6RS2dYWuu8c6RZFkRpWXR4Hj4cwsiX?usp=sharing'
+    # url = 'https://drive.google.com/drive/folders/1vc6RS2dYWuu8c6RZFkRpWXR4Hj4cwsiX?usp=sharing'
     url = 'https://drive.google.com/drive/folders/1vc6RS2dYWuu8c6RZFkRpWXR4Hj4cwsiX?usp=sharing'
     status = requests.get(url)
     sts = status.status_code
