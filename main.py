@@ -8,6 +8,7 @@ import time
 
 try:
     url = 'https://drive.google.com/drive/folders/1vc6RS2dYWuu8c6RZFkRpWXR4Hj4cwsiX?usp=sharing'
+    url = 'https://drive.google.com/drive/folders/1vc6RS2dYWuu8c6RZFkRpWXR4Hj4cwsiX?usp=sharing'
     status = requests.get(url)
     sts = status.status_code
     code = 404
@@ -15,7 +16,7 @@ try:
     browser.get('https://web.whatsapp.com')
 except:
     print('connect to  the internet')
-
+    print('connect to  the internet')
 
 time.sleep(2)
 
